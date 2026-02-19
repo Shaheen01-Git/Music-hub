@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Music Hub</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<h1>🎵 Music Hub</h1>
+
+<input type="text" id="search" placeholder="Search song">
+
+<div class="song">
+  <h3 id="song-title">Sample Song</h3>
+
+  <audio id="audio" src="assets/song1.mp3"></audio>
+
+  <button onclick="playSong()">Play / Pause</button>
+  <button onclick="likeSong()">❤️ Like</button>
+
+  <p id="like-count">Likes: 0</p>
+
+  <input type="text" id="comment-input" placeholder="Add comment">
+  <button onclick="addComment()">Comment</button>
+
+  <ul id="comments"></ul>
+</div>
+
+<button onclick="toggleTheme()">Toggle Theme</button>
+
+<script src="js/player.js"></script>
+<script src="js/like.js"></script>
+<script src="js/comment.js"></script>
+<script src="js/theme.js"></script>
+<script src="js/search.js"></script>
+
+</body>
+</html>
