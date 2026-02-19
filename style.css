@@ -1,0 +1,14 @@
+body {
+  font-family: Arial;
+  padding: 20px;
+}
+
+.dark {
+  background: #111;
+  color: white;
+}
+
+.song {
+  border: 1px solid gray;
+  padding: 15px;
+}
